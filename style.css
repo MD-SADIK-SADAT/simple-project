@@ -10,7 +10,7 @@ body{
 .text-primary{
     color: #fd6e0a
 }
-.btn-primay{
+.btn-primary{
     border-radius: 5px;
     background-color: #fd6e0a;
     border: 0;
@@ -19,10 +19,25 @@ body{
     font-weight: 700;
     padding: 15px 35px;
 }
+.section-tittle{
+    color: #181818;
+    text-align: center;
+    font-family: open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-des{
+    color: #757575;
+    align-items: center;
+    font-size: 18px;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-tittle{
@@ -40,4 +55,100 @@ nav li{
 nav a {
     text-decoration: none;
     color: #474747;
+}
+.header{
+    background-color: #fff;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-text{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-tittle{
+    font-size:  85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20;
+}
+main{
+    max-width:1140px ;
+    margin: 0 auto;
+}
+main .section{
+    margin-top: 130px;
+}
+.about{
+    padding: 13px;
+    background-color: #fff;
+    margin: 130px;
+}
+.about-inf-cot{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    align-items: center;
+}
+#what-i-do-des{
+    padding: 30px 150px;
+}
+.skills-cont{
+    display: flex;
+    gap: 24px;
+
+}
+.skills{
+    padding: 30px;
+    gap: 24px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+.skill-des{
+    color: #757575;
+}
+.resume-col-tit{
+    color: #474747;
+    font-family: open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-cont{
+    display: flex;
+    gap: 50px;
+}
+.resume-itm-tit{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-itm-instut{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-itm-instut,.resume-itm-discrip{
+    color: #757575;
+}
+.resume-cont hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
